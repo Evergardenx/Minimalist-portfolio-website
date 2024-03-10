@@ -1,0 +1,34 @@
+body {
+  background: $color-very-light-gray;
+}
+
+header,
+main {
+  padding: 32px 32px 0 32px;
+
+  @media screen and (min-width: 768px) {
+    padding: 48px 0 0 0;
+  }
+
+  @media screen and (min-width: 1110px) {
+    padding: 64px 0 0 0;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    max-width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media screen and (min-width: 1110px) {
+    width: 1110px;
+    max-width: 1110px;
+  }
+}

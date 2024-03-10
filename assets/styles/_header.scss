@@ -1,0 +1,10 @@
+header {
+  height: 32px;
+  margin-bottom: 24px;
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
